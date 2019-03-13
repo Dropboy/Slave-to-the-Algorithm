@@ -7,4 +7,4 @@ With the first week of University starting, we dove right into some coding with 
 
 We started by experimenting with lines, other shapes and their strokes, and how you could visualise them with the commands: Line, Ellipse, Rect, and Stroke. Depending on the position as well based off of their coordinates (x1,x2,y1,y2, the x being the two x coordinates it will span to, and same with the y)
 
-![Image of Code](http://drive.google.com/uc?export=view&id=15Mgq4m1ndFGGBQsb3w-2qrznhIzbMq2I)
+![Image of Code](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Images-and-Resources/Code.png)
