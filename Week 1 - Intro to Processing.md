@@ -10,8 +10,11 @@ We started by experimenting with lines, other shapes and their strokes, and how 
 This is the code for a simple line:
 
 size(3000,2000);
+
 line(0,0,3000,2000);
 
 I have changed the size of the "artboard" to be quite large as my laptop screen has a higher resolution than most. The line spans from the top left of the canvas to the bottom right, if the size function were to change to (1920,1080) for example the line coordinates would then have to change to (1920,1080) as the line coordinates are tied to the canvas size. This was a major confusion point for me at first, as working with numbers isn't my strong suit and I had trouble visualising a grid that wasn't there.
 
 ![Image of Line](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%201/Line.png)
+
+After making a simple line we then began experimenting with changing colours when a key is being pressed, and generating 
