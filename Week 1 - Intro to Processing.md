@@ -20,3 +20,36 @@ I have changed the size of the "artboard" to be quite large as my laptop screen 
 After making a simple line we then began experimenting with changing colours when a key is being pressed, as well as ellipses being created when the mouse cursor is moved. This generated a very interesting yet crazy canvas with lots of colours and ellipses.
 
 ![Giffy Boi](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%201/Gif%20of%20Canvas.gif)
+
+Here is the code for generating different ellipses of random colours, and being able to change the colour of the background through any key press:
+
+//Initial setup of the integers and size of the artboard/colour, as well as the stroke colour for the whole sketch
+int r,g,b,w;
+void setup (){
+fullScreen();
+  background(0);
+  stroke(255,0,0);
+}
+
+//Drawing of the ellipses when the mouse cursor is moved, as well when any of the mouse buttons are pressed the ellipse will become white
+void draw(){
+  if(mousePressed) {
+  fill (mouseX/2,mouseY/2,(mouseX+mouseY)/4);
+}
+else {
+  fill (int(random(256)),int(random(256)),int(random(256)));
+}
+ellipse (mouseX,mouseY,100,100);
+
+}
+//This part allows the background to be changed to a random colour when any key on the keyboard is pressed
+void keyPressed(){
+  r=int(random(256));
+  g=int(random(256));
+  b=int(random(256));
+  w=int(random(256));
+  background (r,g,b);
+  stroke(w);
+}
+
+For my first session with processing I felt a little confused, but also confident that I will be able to pickup some of the more tedious syntax. The language while simple compared to others, still has its own level of depth and consideration which I will have to learn and practice with.
