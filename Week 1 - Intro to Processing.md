@@ -18,3 +18,5 @@ I have changed the size of the "artboard" to be quite large as my laptop screen 
 ![Image of Line](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%201/Line.png)
 
 After making a simple line we then began experimenting with changing colours when a key is being pressed, as well as ellipses being created when the mouse cursor is moved. This generated a very interesting yet crazy canvas with lots of colours and ellipses.
+
+![Giffy Boi](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%201/Gif%20of%20Canvas.gif)
