@@ -23,9 +23,14 @@ After making a simple line we then began experimenting with changing colours whe
 
 Here is the code for generating different ellipses of random colours, and being able to change the colour of the background through any key press:
 
+```java
+
 //Initial setup of the integers and size of the artboard/colour, as well as the stroke colour for the whole sketch
+
 int r,g,b,w;
+
 void setup (){
+
 fullScreen();
   background(0);
   stroke(255,0,0);
@@ -52,4 +57,5 @@ void keyPressed(){
   stroke(w);
 }
 
+```
 For my first session with processing I felt a little confused, but also confident that I will be able to pickup some of the more tedious syntax. The language while simple compared to others, still has its own level of depth and consideration which I will have to learn and practice with.
