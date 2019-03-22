@@ -14,12 +14,10 @@ After our dip into analogue generative design, we retreated back to our code lan
 After the class I had a look on the processing forums to see if anyone had asked about this before, lo and behold there was my exact question, "How to make placing triangles as easy as ellipses and rectangles". Nicely enough someone posted their own code of how to create perfectly equilateral triangles.
 
 ```java
-
 void triangleSimple(float x, float y, float w, float h){
     // A wrapper for standard triangle() command.
     // triangleSimple has the upper left corner as x,y (can be lower when -)
     triangle(x,y,
     x+w/2, y+h,
     x+w, y);
-
 ```
