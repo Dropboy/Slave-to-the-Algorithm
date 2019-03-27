@@ -15,7 +15,53 @@ There were a couple improvements suggested by the class that were very insightfu
 
 ![Image of Papers](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%202/Image%20of%20Papers.png)
 
-After our dip into analogue generative design, we retreated back to our code land of processing. This time however we were using processing in a more graphical sense, creating a small face out of the shapes we experimented with the week before, I used an ellipse for the face, eyes, and pupils. Working as well with strokes and their weight to give the face more emoji like shape. This was a fairly simple exercise in processing as it really was about the placement of objects, I did however struggle with the 6 points required with a triangle, and decided to do some further research at home into how to make the triangles easier to draw, and how to draw them in a continuous line as to appear as if the emoji had nice equally sized, sharp teeth.
+After our dip into analogue generative design, we retreated back to our code land of processing. This time however we were using processing in a more graphical sense, creating a small face out of the shapes we experimented with the week before, I used an ellipse for the face, eyes, and pupils. Working as well with strokes and their weight to give the face more emoji like shape. This was a fairly simple exercise in processing as it really was about the placement of objects, I did however struggle with the 6 points required with a triangle, and decided to do some further research at home into how to make the triangles easier to draw, and how to draw them in a continuous line as to appear as if the emoji had nice equally sized, sharp teeth. Here is the code for my emoji's face if you'd like to see him in your own processing sketch
+
+```java
+
+void setup(){
+  size(600,600);
+  background(153,219,255);
+  stroke(18,127,229);
+  fill(50);
+}
+
+void triangleSimple(float x, float y, float w, float h){
+    // A wrapper for standard triangle() command.
+    // triangleSimple has the bottom left corner as x,y (can be lower when -)
+    triangle(x,y,
+    x+w/2, y+h,
+    x+w, y);
+}
+
+void draw(){
+  fill(21,80,135);
+  strokeWeight(25);
+  ellipse(300,300,200,200);
+
+  fill(255);
+  strokeWeight(25);
+  ellipse(250,250,100,100);
+  ellipse(350,250,100,100);
+
+  strokeWeight(4);
+  fill(109,182,249);
+  ellipse(250,250,30,30);
+  ellipse(350,250,30,30);
+
+  strokeWeight(0);
+  fill(255);
+
+  int i = 1;
+  int x=220;
+  while(i<=4){
+    triangleSimple(x,330,40,40);
+    x += 40;
+    i++;
+  }
+}
+
+```
 
 After the class I had a look on the processing forums to see if anyone had asked about this before, lo and behold there was my exact question, "How to make placing triangles as easy as ellipses and rectangles". Nicely enough someone posted their own code of how to create perfectly equilateral triangle.
 
@@ -30,6 +76,8 @@ x+w, y);
 }
 
 ```
+
+![Image of Face Boy](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%202/Face%20Boy.PNG)
 
 Unpacking this slightly, instead of giving the triangle six coordinates, we have changed it to 4 variables; x, y, w (width), and h (height). All of these variables can be float values so they are able to be decimal places, ensuring that the triangle will always be perfect all sides. The comments are saying that the triangle starts at the left most point (the point changes to the bottom or top depending on whether you are subtracting by the width or adding). After this we generate the triangle using our new variables, so x will be added to the width variable we give it, and then divided by 2, this gives an always perfect centre point of the top or bottom most point. It is then adding the height to the y so that it is more straight forward when picturing how large it will be. The third point is then calculated by simply adding the x to the width variable, and will have the same y value as the original point. This will obviously have to change depending if you want to have it on an angle, but I only needed them to be straight so didn't tinker further.
 
