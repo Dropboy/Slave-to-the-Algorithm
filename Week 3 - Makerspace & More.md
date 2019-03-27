@@ -5,8 +5,7 @@ __*Makerspace Visit & Processing tutorials*__
 To start the session we had a quick chat about potential 3D outcomes for our final projects, which led into the makerspace talk and small visit we had. The makerspace visit helped me understand a little further the potential my project idea has when applied in a 3D space, using a 3D printer or laser engraver would add another dimension to the design, enabling an audience to understand and picture the idea that I have much better than just on a screen.
 
 <p align="center">
-  <img width="1118.5
-" height="755.5" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%203/Collage%20of%20Makerspace.png">
+  <img width="559.25" height="377.75" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%203/Collage%20of%20Makerspace.png">
 
 This talk spurred the furthering of my final project ideas, one extension I thought about was using my original park generation idea, however finding a way to download these 3D generated parks into a 3D format such as .STL, and then using that in a 3D printer. This would give the audience a real view of the park that they are able to handle and manipulate, giving them a better picture of how my park generation is useful in a smaller space, or as a problem solver to park/urban environment planning.
 
