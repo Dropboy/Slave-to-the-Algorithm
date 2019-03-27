@@ -77,7 +77,7 @@ x+w, y);
 
 ```
 
-![Image of Face Boy](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%202/Face%20Boy.PNG)
+<img align="centre" width="302" height="325" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%202/Face%20Boy.PNG">
 
 Unpacking this slightly, instead of giving the triangle six coordinates, we have changed it to 4 variables; x, y, w (width), and h (height). All of these variables can be float values so they are able to be decimal places, ensuring that the triangle will always be perfect all sides. The comments are saying that the triangle starts at the left most point (the point changes to the bottom or top depending on whether you are subtracting by the width or adding). After this we generate the triangle using our new variables, so x will be added to the width variable we give it, and then divided by 2, this gives an always perfect centre point of the top or bottom most point. It is then adding the height to the y so that it is more straight forward when picturing how large it will be. The third point is then calculated by simply adding the x to the width variable, and will have the same y value as the original point. This will obviously have to change depending if you want to have it on an angle, but I only needed them to be straight so didn't tinker further.
 
