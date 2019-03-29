@@ -15,4 +15,4 @@ After our makerspace visit and talk about the various different tactile outcomes
 
 ![Collage of Baby Sketch](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%203/Collage%20of%20Baby%20Pointillism.png)
 
-This is an interesting way of making
+This is an interesting way of making an image and creates a textured effect due to the transparency and different size of the ellipses. In class Karen created a similar image generating sketch however with lines instead, which I liked the look of a lot more, due to the different texture it gave and the final image having a lot more of a filtered look to it.
