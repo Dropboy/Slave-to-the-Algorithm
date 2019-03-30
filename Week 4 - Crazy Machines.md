@@ -6,7 +6,7 @@ __*Crazy machines and Jedi Mastering*__
 
 We started off the class by brainstorming ideas of "Crazy machines" that would take some sort of human interaction and generate something from that, my groups idea was to generate a playlist depending on how sad or happy you are, which is recorded off of a screenshot. After your mood is measured, it will generate a 10 song playlist from some of your music, and selected songs that match the type of mood your in. This will be delivered by a QR code you can scan that will take you to a created Spotify playlist.
 
-![Image of Crazy Machine Brainstorm](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%204/20190327_112642.jpg)
+![Image of Crazy Machine Brainstorm](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%204/Rotated%20Crazy%20Machine.png)
 
 *Also played around with a hacked "jedi mind tester"*
 
