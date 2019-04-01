@@ -17,4 +17,5 @@ After our makerspace visit and talk about the various different tactile outcomes
 
 This is an interesting way of making an image and creates a textured effect due to the transparency and different size of the ellipses. In class Karen created a similar image generating sketch however with lines instead, which I liked the look of a lot more, due to the different texture it gave and the final image having a lot more of a filtered look to it.
 
-![Gif of Pointillism in action](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%203/Pointillism%20Gif.gif)
+<p align="center">
+  <img width="559.25" height="377.75" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%203/Pointillism%20Gif.gif">
