@@ -20,7 +20,9 @@ void draw() {
 }
 
 ```
-![Image of Line being translated](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%205/Line%20Translated.PNG)
+
+<p align="center">
+  <img width="559.25" height="377.75" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%205/Line%20Translated.PNG">
 
 This is an example of a diagonal line being translated 40 pixels to the right and 40 pixels to the left. The translate function has had to be changed to -80 instead of -40 as the canvas is still kept in it's previous spot and needs to be translated back further another 40 pixels, as -40 brings it back to the original canvas position.
 
@@ -28,7 +30,7 @@ This is an example of a diagonal line being translated 40 pixels to the right an
 
 void draw() {
   stroke(255);
-  line(200,200,300,300);
+  line(200,200,300,300);  
   pushMatrix();
   translate(40,0);
   line(200,200,300,300);
