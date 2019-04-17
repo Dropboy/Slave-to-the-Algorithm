@@ -11,5 +11,3 @@ Closer to the end of the session I had a quick chat with Karen about the state o
 ![Image of New Idea Generation](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%204/20190330_153923.jpg)
 
 Another thing that peaked my interest was a hacked jedi mind tester that was able to read how meditated or concentrated you were, this was an interesting experiment to tinker with, as the 3 plates that were built into the toy were able to measure this quite accurately off of just galvanic skin cells. When I closed my eyes and tried to best meditate, as soon as I opened my eyes the meditation tab would be at the top, and my attention would be quite low. When Karen came and snapped her fingers the attention tab began to rise again however. It would be interesting to see how else you could use these two values, perhaps a small game that generates an image of something relaxing while you have more relaxing thoughts or vice versa a more focused image of someone studying. They could also be used to generate random images themselves, which could create it's own unique look.
-
-*Showed some stuff in relation to data visualisation*
