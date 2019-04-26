@@ -13,4 +13,4 @@ Many of the presentations were so well thought out and researched, every idea yo
 
 -Worked on logotype map, made connections between the more human the input is the more connections it will have with other works, the less human the less connections and the more unique the idea
 
-Whilst listening to the presentations we were tasked with
+Whilst listening to the presentations we were tasked with making a logotype map that 
