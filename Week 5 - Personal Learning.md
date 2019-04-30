@@ -4,7 +4,7 @@ __*Personal learning and fractal exploration*__
 
 With Karen away in Tokyo, I decided to spend the free day I had working away at coding challenges done by one of my new favourite youtubers, David Shiffman, or The Coding Train. is a wealth of knowledge, and somewhere I will definitely be visiting revisiting for information in regards to my project and further knowledge with processing.
 
-![Gif of Good ol' Davo](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%205/The%20coding%20train.jpg)
+![Image of Good ol' Davo](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%205/The%20coding%20train.jpg)
 
 My plan was to finish his playlist on fractal generation by the end of the week, and better understand what was behind these algorithms and methods of creating fractals. After going through the videos and trying to understand the systems better, I found that the space colonisation  algorithm or the recursive fractal trees would be the best for my 3D environment, both are flexible and generate a better 3D look to them, especially the space colonisation example.
 
