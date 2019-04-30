@@ -1,6 +1,6 @@
 # Slave to the Algorithm - Week 5
 
-__*Personal learning and fractal exploration*__
+__*Personal learning and Fractal Exploration*__
 
 With Karen away in Tokyo, I decided to spend the free day I had working away at coding challenges done by one of my new favourite youtubers, David Shiffman, or The Coding Train. is a wealth of knowledge, and somewhere I will definitely be visiting revisiting for information in regards to my project and further knowledge with processing.
 
