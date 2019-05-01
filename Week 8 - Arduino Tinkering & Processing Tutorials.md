@@ -6,3 +6,5 @@ __*Arduino Tinkering & Processing Tutorials*__
   -Made ultrasonic sensor that can tell how far away something is in front of it
   -Then used the values that the Arduino was able to generate to make a processing sketch that made an image bigger the further away you are from the image
   -Then altered it to be a circle that grew bigger and react to mouse movement rather than the sensor
+-What is expected next week
+  -What you have created so far
