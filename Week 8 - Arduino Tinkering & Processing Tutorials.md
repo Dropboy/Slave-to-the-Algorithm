@@ -40,11 +40,38 @@ void draw()
 
 ```
 
-This is the code block for the processing portion, a lot of this I'm still quite lost on, however I can understand that the background is being redrawn, and the image size is being changed dependent on the value that is displayed by println(serialIn).
+This is the code block for the processing portion, a lot of this I'm still quite lost on, however I can understand that the background is being redrawn, and the image size is being changed dependent on the value that is displayed by println(serialIn). Now we are able to use the values that are generated to change the size of the image, the closer you get to the ultrasonic sensor the larger the image will become, the further away you get the smaller the image gets. The use of this exercise was to show that there are a lot of resources online that we can use and modify to fit our project. It also helped display how easy it is to incorporate Arduino into projects on a basic level, and the potential to experiment with different mediums of electronics with our projects. I was able to modify the processing code for the image resizing, to make an ellipse resize dependant on where the mouse cursor is on the screen, here is the code for that:
 
-  -Then used the values that the Arduino was able to generate to make a processing sketch that made an image bigger the further away you are from the image
+```java
 
-  -Then altered it to be a circle that grew bigger and react to mouse movement rather than the sensor
+void setup() {
+  background(255);
+  fullScreen();
+  fill(0);
+  stroke(255,0,0);
+  strokeWeight(2);
+  frameRate(60);
+  ellipseMode(CENTER);
 
--What is expected next week
-  -What you have created so far
+}
+
+void draw() {
+  int diam = abs(2*mouseY - width);
+  int weirddiam = abs(2*mouseX - width);
+  print(mouseX,mouseY);
+  background(-1);
+  ellipse(width>>1,height>>1, diam, weirddiam);
+}
+
+void mouseMoved() {
+  redraw();
+
+}
+
+```
+
+I removed the majority of the original functions created for the ultrasonic sensor, and replaced them with functions that change the size of the ellipse dependent on the X and Y mouse cursor. It generates an interesting effect to the ellipse, manipulating and squashing it into various different circle shapes. This could be utilised in a couple of different ways, there could be physics in my project that when the mouse moves, it effects and manipulates how the trees and other fauna are displayed.
+
+![Gif of circle being manipulated](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%208/Ellipse%20changing.gif)
+
+This week Karen gave me a goal to accomplish over the week, to get to a stage where I have at least one "tree" object being grown off of a platform. I have been focusing on really learning syntax and how the coding process actually works, so progress on my project has been stopped somewhat. Being told that I need to bring my prototype up to spec with what I am learning was a worrying, but needed warning. I'm going to have to start kicking up the rate at which I write my own code, or look and hack through others. The next couple of weeks will be purely focused on my project and how it is going to be made. There will be a lot of dead ends and problems to face but overcoming them or bringing them to people that can help will be rewarding and a good lesson to learn.
