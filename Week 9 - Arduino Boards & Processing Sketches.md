@@ -1,6 +1,6 @@
 # Slave to the Algorithm - Week 9
 
-__*Class TBD*__
+__*Arduino Boards & Processing Sketches*__
 
 With my tree ready and my brain ready for a bit of brutalising, I walked into this weeks slave class confident and excited. Karen greeted us with boxes of Arduino modules, boards, and the task of researching and finding the use of a randomly selected module. The first one I picked up was a temperature sensor, however I originally believed it to be a sound sensor. I immediately began trying to use this temperature sensor in a sound sensor arduino project, and with Karen's help quickly realised I had not properly googled my module.
 

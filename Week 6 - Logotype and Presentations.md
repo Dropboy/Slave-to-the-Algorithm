@@ -1,6 +1,6 @@
 # Slave to the Algorithm - Week 6
 
-__*Logotypes and Presentations*__
+__*Logotypes & Presentations*__
 
 Walking into week 6 was very nerve wracking, with the thought of a presentation looming over our heads, everyone was in a bit of a frantic state. However to start the lesson we drew up 4 similar "logotypes" as a logo of sorts to use for mapping all of the projects different attributes on a large piece of paper. This was a very fun and interesting way for Karen to remove some of the stress of presenting, as well as give us a physical way of mapping all of the projects into somewhat similar categories.
 
