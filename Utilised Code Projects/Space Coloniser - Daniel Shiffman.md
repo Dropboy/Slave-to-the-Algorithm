@@ -1,0 +1,1 @@
+The space coloniser algorithm is the base of my tree spawning code. Without The Coding Train's work my project would really be hardly running. There is still a lot for me to understand with this coding challenge, but as I work with the project, I slowly begin to understand the way the code runs and what every function does.

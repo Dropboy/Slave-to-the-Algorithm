@@ -26,8 +26,8 @@ void setup() {
 void draw() {
   background(0);
   platform();
-  table();
-    
+  //table();
+
   for (Tree t : Forest){
     t.grow();
     t.show();
