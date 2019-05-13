@@ -1,7 +1,7 @@
 void table(){
   stroke(255);
   strokeWeight(5);
-  fill(255);
+  noFill();
   pushMatrix();
   translate(0,height/2-100,0);
   box(250,25,500);

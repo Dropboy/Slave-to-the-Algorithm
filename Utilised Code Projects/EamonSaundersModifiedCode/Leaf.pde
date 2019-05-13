@@ -21,7 +21,7 @@ class Leaf {
 
   void show() {
     strokeWeight(3);
-    stroke(198,207,101);
+    stroke(255);
     noFill();
     pushMatrix();
     translate(pos.x, pos.y, pos.z);
