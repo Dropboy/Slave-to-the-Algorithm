@@ -1,8 +1,3 @@
-// Coding Rainbow
-// Daniel Shiffman
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/JcopTKXt8L8
-
 float r = random(1000);
 
 class Leaf {
@@ -11,8 +6,8 @@ class Leaf {
 
   Leaf() {
     pos = PVector.random3D();
-    pos.mult(random(r/2));
-    pos.y -= r/4;
+    pos.mult(random(height/2));
+    pos.y -= height/4;
   }
 
   void reached() {
@@ -26,7 +21,7 @@ class Leaf {
     pushMatrix();
     translate(pos.x, pos.y, pos.z);
     //sphere(4);
-    ellipse(0,0, 4, 4);
+    //ellipse(0,0, 4, 4);
     popMatrix();
   }
 }

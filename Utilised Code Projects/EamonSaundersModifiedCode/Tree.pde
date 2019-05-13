@@ -13,7 +13,7 @@ class Tree {
   
   Tree() {
     
-    for (int i = 0; i < random(2000); i++) {
+    for (int i = 0; i < random(500); i++) {
       leaves.add(new Leaf());
       leaves.get(i).pos.x+=x;
       leaves.get(i).pos.z+=z;

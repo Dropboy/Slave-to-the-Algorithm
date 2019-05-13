@@ -10,28 +10,31 @@ Tree tree;
 PeasyCam cam;
 
 
+ArrayList<Tree> Forest = new ArrayList<Tree>();
 float x = random(-500,500);
 float z = random(-500,500);
 float min_dist = 5;
 float max_dist = 500;
 
 void setup() {
-  size(600, 900, P3D);
+  size(1000, 1000, P3D);
   cam = new PeasyCam(this,1000);
   tree = new Tree();
+  Forest.add(tree);
 }
 
 void draw() {
-  //translate(x,0,z);
   background(0);
   platform();
-  tree.show();
-  tree.grow();
   table();
-  //println(x);
-  //println(z);
+    
+  for (Tree t : Forest){
+    t.grow();
+    t.show();
+  }
 }
 
 void keyPressed(){
- 
+  Forest.add(new Tree());
+
 }
