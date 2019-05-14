@@ -16,11 +16,11 @@ line(0,0,3000,2000);
 
 I have changed the size of the "artboard" to be quite large as my laptop screen has a higher resolution than most. The line spans from the top left of the canvas to the bottom right, if the size function were to change to (1920,1080) for example the line coordinates would then have to change to (1920,1080) as the line coordinates are tied to the canvas size. This was a major confusion point for me at first, as working with numbers isn't my strong suit and I had trouble visualising a grid that wasn't there.
 
-![Image of Line](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%201/Line.png)
+![Image of Line](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%2001/Line.png)
 
 After making a simple line we then began experimenting with changing colours when a key is being pressed, as well as ellipses being created when the mouse cursor is moved. This generated a very interesting yet crazy canvas with lots of colours and ellipses.
 
-![Giffy Boi](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%201/Gif%20of%20Canvas.gif)
+![Giffy Boi](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%2001/Gif%20of%20Canvas.gif)
 
 Here is the code for generating different ellipses of random colours, and being able to change the colour of the background through any key press:
 

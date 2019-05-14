@@ -8,6 +8,6 @@ Many of the presentations were so well thought out and researched, every idea yo
 
 Whilst listening to the presentations we were tasked with making a logotype map that mapped a certain function of the projects, ours was the input of our projects. We mapped the inputs with a simple Boolean choice, human or robot. We found some projects required more of a human input rather than a set measurement or parameter, so we grouped them accordingly. We began to see patterns form from the placements of all the logotypes, some of the projects were more focused on having the input of their program be more focused on an active choice made by a user, whilst others were more interested in having an input that was decided off of a subconscious action your body does. Due to the variety of projects it will be fairly easy to utilise other classmates code and ideas of their projects, since there will be some overlapping of projects.
 
-![Image of Logotype Map](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%206/Logotype%20map%20crop.jpg)
+![Image of Logotype Map](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%2006/Logotype%20map%20crop.jpg)
 
 Small update for Week 6 due to most of my time being spent on presentation prep and syntax learning, I hope to start up more code examples soon and have my project be greenlit so that I can focus a little more on the current direction of the program.

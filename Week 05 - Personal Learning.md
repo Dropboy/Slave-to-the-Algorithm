@@ -4,7 +4,7 @@ __*Personal learning and Fractal Exploration*__
 
 With Karen away in Tokyo, I decided to spend the free day I had working away at coding challenges done by one of my new favourite youtubers, Daniel Shiffman, or The Coding Train. is a wealth of knowledge, and somewhere I will definitely be visiting revisiting for information in regards to my project and further knowledge with processing.
 
-![Image of Good ol' Davo](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%205/The%20coding%20train.jpg)
+![Image of Good ol' Davo](https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%2005/The%20coding%20train.jpg)
 
 My plan was to finish his playlist on fractal generation by the end of the week, and better understand what was behind these algorithms and methods of creating fractals. After going through the videos and trying to understand the systems better, I found that the space colonisation  algorithm or the recursive fractal trees would be the best for my 3D environment, both are flexible and generate a better 3D look to them, especially the space colonisation example.
 
@@ -24,7 +24,7 @@ void draw() {
 ```
 
 <p align="center">
-  <img width="500" height="500" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%205/Line%20Translated.PNG">
+  <img width="500" height="500" src="https://github.com/Dropboy/Slave-to-the-Algorithm/blob/Journal/Images%20and%20Resources/Week%2005/Line%20Translated.PNG">
 
 This is an example of a diagonal line being translated 40 pixels to the right and 40 pixels to the left. The translate function has had to be changed to -80 instead of -40 as the canvas is still kept in it's previous spot and needs to be translated back further another 40 pixels, as -40 brings it back to the original canvas position.
 
