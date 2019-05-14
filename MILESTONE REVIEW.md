@@ -18,3 +18,7 @@ Some planning will have to take place so that I can finish what I stil have plan
 
 
 **Tools & Resources**
+
+Some of the resources I will be heavily abusing are: The Coding Train videos and projects, as well as my computer science friend's knowledge on coding. There are still a lot of videos that have content I feel could be related to my random park generator, so I will continue to look through the coding train's youtube videos and make manipulations to the code he provides. My computer science friend as well will be one of the most useful resources I have. I can not only use him as an active code debugger, but he also helps make sure I'm coding in an efficient way, utilising the code that has already been written by Daniel, making it so that overall my understanding is better with the code I'm working with and coding in general.
+
+I will also make sure to talk to some of the other students in class, not only to help with anyone that might be stuck, but also when my code might need a bit of pushing. With such creative people working in such a close vicinity, the ideas and brainstorming is endless. The amount of times someone in class has suggested a certain improvement that would make my project look much better has been countless, using my peers as inspiration has helped improve how simple and effective my project is.
