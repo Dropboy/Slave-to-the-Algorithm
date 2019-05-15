@@ -6,6 +6,7 @@
 import peasy.*;
 
 Tree tree;
+//Path p;
 
 PeasyCam cam;
 
@@ -26,8 +27,8 @@ void setup() {
 void draw() {
   background(0);
   platform();
+  //pathway();
   //table();
-
   for (Tree t : Forest){
     t.grow();
     t.show();
