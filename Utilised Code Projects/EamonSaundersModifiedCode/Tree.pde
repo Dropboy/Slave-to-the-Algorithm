@@ -102,5 +102,12 @@ class Tree {
         line(b.pos.x, b.pos.y, b.pos.z, b.parent.pos.x, b.parent.pos.y, b.parent.pos.z);
       }
     }
+        stroke(255);
+        strokeWeight(3);
+        pushMatrix();
+        translate(0,height/2,z);
+        rotateX(PI/2.0);
+        ellipse(x,0,200,200);
+        popMatrix();
   }
 }

@@ -7,6 +7,7 @@ class Path {
 
 Path () {
   
+  
 void display(){
   pushMatrix();
   strokeWeight(5);
