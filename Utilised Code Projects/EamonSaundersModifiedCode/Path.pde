@@ -7,12 +7,14 @@ class Path {
 
 Path () {
   
+  
 void display(){
   pushMatrix();
   strokeWeight(5);
   stroke(255);
   rotateX(PI/2.0);
-  rect(x,z,40,40);
+  translate(-500,0,-500);
+  rect(0,0,1000,300);
   popMatrix();
   
 }

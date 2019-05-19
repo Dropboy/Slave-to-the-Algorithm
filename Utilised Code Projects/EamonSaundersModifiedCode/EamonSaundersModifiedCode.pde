@@ -26,6 +26,7 @@ void setup() {
 
 void draw() {
   background(0);
+  display();
   platform();
   //pathway();
   //table();
