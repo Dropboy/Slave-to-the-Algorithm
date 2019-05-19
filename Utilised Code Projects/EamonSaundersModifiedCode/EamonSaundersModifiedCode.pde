@@ -35,8 +35,16 @@ void draw() {
     t.show();
   }
 }
-
+/*
 void keyPressed(){
   Forest.add(new Tree());
+}
+*/
 
+void keyPressed(){
+  if (key == 'g' || key == 'G') {
+    Forest.clear();
+   } else{
+    Forest.add(new Tree());
+   }
 }
