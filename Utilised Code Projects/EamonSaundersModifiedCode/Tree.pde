@@ -1,17 +1,10 @@
-// Coding Rainbow
-// Daniel Shiffman
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/JcopTKXt8L8
-
-
-
 class Tree {
   ArrayList<Branch> branches = new ArrayList<Branch>();
   ArrayList<Leaf> leaves = new ArrayList<Leaf>();
-  float x = random(-500,500);
-  float z = random(-500,500);
+  //float x = random(-500,500);
+  //float z = random(-500,500);
   
-  Tree() {
+  Tree(float x, float z) {
     
     for (int i = 0; i < random(500); i++) {
       leaves.add(new Leaf());
@@ -107,7 +100,7 @@ class Tree {
         pushMatrix();
         translate(0,height/2,z);
         rotateX(PI/2.0);
-        ellipse(x,0,200,200);
+        //ellipse(x,0,200,200);
         popMatrix();
   }
 }

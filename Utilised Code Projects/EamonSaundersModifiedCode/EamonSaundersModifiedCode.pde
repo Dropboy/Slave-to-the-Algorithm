@@ -1,8 +1,3 @@
-// Coding Rainbow
-// Daniel Shiffman
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/JcopTKXt8L8
-
 import peasy.*;
 
 Tree tree;
@@ -12,6 +7,7 @@ PeasyCam cam;
 
 
 ArrayList<Tree> Forest = new ArrayList<Tree>();
+Platform p;
 float x = random(-500,500);
 float z = random(-500,500);
 float min_dist = 5;
@@ -20,26 +16,24 @@ float max_dist = 500;
 void setup() {
   size(1000, 1000, P3D);
   cam = new PeasyCam(this,1000);
-  tree = new Tree();
-  Forest.add(tree);
+  p = new Platform();
+  //p.creategrid(-1000,-1000,500,2000,3,3);
+  //p.creategrid(500,-1000,500,2000,3,3);
+  p.getforest();
+  p.pathway();
+  //Forest.add(tree);
 }
 
 void draw() {
   background(0);
-  display();
-  platform();
-  //pathway();
-  //table();
+  p.show();
   for (Tree t : Forest){
     t.grow();
     t.show();
   }
 }
+
 /*
-void keyPressed(){
-  Forest.add(new Tree());
-}
-*/
 
 void keyPressed(){
   if (key == 'g' || key == 'G') {
@@ -48,3 +42,5 @@ void keyPressed(){
     Forest.add(new Tree());
    }
 }
+
+*/
