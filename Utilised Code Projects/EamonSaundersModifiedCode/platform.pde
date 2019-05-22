@@ -12,7 +12,7 @@ class Platform {
     for( int ix = 0; ix < (cols+1); ix++){
      for( int iz = 0; iz < (rows+1); iz++){
         float p = 0.4f; // stores to memory makes sure it can't be overwritten by another data type
-        Forest.add(new Tree(x+xd*ix+random(-p,p)*xd,z+zd*iz+random(-p,p)*zd));  
+        Forest.add(new Tree(x+xd*ix+random(-p,p)*xd,z+zd*iz+random(-p,p)*zd));
      }
     }
    }
@@ -42,6 +42,8 @@ class Platform {
     popMatrix();
 }
   void park(){
-    creategrid(-1000.0,-1000.0,x-200,2000,2,2);
+    creategrid(-1000.0,-1000.0,2000,2000,4,4);
+    pathway();
+    
   }
 }

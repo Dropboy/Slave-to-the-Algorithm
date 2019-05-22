@@ -19,20 +19,22 @@ void setup() {
   p = new Platform();
   //p.creategrid(-1000,-1000,500,2000,3,3);
   //p.creategrid(500,-1000,500,2000,3,3);
-  p.getforest();
-  p.pathway();
   //Forest.add(tree);
+  p.getforest();
+  p.park();
+  p.show();
 }
 
 void draw() {
   background(0);
+  ParkBench();
+  p.pathway();
   p.show();
   for (Tree t : Forest){
     t.grow();
     t.show();
   }
 }
-
 /*
 
 void keyPressed(){
