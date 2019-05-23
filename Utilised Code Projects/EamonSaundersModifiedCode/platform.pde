@@ -43,8 +43,8 @@ class Platform {
     popMatrix();
   }
   void park(){
-    creategrid(-1600,-1600,x+1600,2600,2,2);
-    creategrid(x+700,-1600,800-x,2600,2,2);
+    creategrid(-1500,-1500,x+1000,3000,2,2);
+    creategrid(x+800,-1500,700-x,3000,2,2);
     pathway();
     
   }
