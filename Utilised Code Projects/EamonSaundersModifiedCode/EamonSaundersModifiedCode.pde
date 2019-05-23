@@ -15,34 +15,19 @@ float max_dist = 500;
 
 void setup() {
   size(1000, 1000, P3D);
-  cam = new PeasyCam(this,1000);
+  cam = new PeasyCam(this,2000);
   p = new Platform();
-  //p.creategrid(-1000,-1000,500,2000,3,3);
-  //p.creategrid(500,-1000,500,2000,3,3);
-  //Forest.add(tree);
   p.getforest();
   p.park();
-  p.show();
 }
 
 void draw() {
   background(0);
-  ParkBench();
   p.pathway();
   p.show();
+  p.parkbench();
   for (Tree t : Forest){
     t.grow();
     t.show();
   }
 }
-/*
-
-void keyPressed(){
-  if (key == 'g' || key == 'G') {
-    Forest.clear();
-   } else{
-    Forest.add(new Tree());
-   }
-}
-
-*/
