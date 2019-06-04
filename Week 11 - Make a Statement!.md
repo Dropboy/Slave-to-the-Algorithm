@@ -12,3 +12,69 @@ Second last class and not much was done other than trying to help whoever asked 
 This is a quick sketch of what I imagine it will look like. Hopefully this won't be too hard to setup on the day and will look as minimal but welcoming as I envision it to.
 
 During the class I also created the display function for my park bench. Originally I had created it using the same method as my table display, however once I got home and began playing with the spawning of the park benches, I realised that because there were translates and rotateAxis functions within my display function and spawning functions, they wouldn't display properly when spawning, and would have taken some rewriting of my spawning functions. Instead I researched the beginShape() and vertex() functions, which allowed me to create custom shapes that did not need its axis rotated, instead you could plan out how it looked by plotting it on the imaginary graph. This generated a similar if not better effect then when using rectangle and line functions, and it also worked with the spawning function, making it a much needed improvement to my code.
+
+Here is the example of my previous code compared to the new rewritten beginShape code:
+
+```java
+BEFORE
+void ParkBench(){
+  strokeWeight(5);
+  pushMatrix();
+  rotateX(PI/2.0);
+  translate(0,0,-450);
+  rect(0,0,100,400);
+  rotateY(PI/.7);
+  rect(0,0,100,400);
+  popMatrix();
+  pushMatrix();
+  translate(100,450,0);
+  line(0,50,0,0);
+  popMatrix();
+  pushMatrix();
+  translate(100,450,400);
+  line(0,50,0,0);
+  popMatrix();
+  pushMatrix();
+  translate(0,450,0);
+  line(0,50,0,0);
+  popMatrix();
+  pushMatrix();
+  translate(0,450,400);
+  line(0,50,0,0);
+  popMatrix();
+}
+
+AFTER
+void display(float x, float z) {
+  pushMatrix();
+  translate(x, 0, z);
+  stroke(255);
+  strokeWeight(5);
+
+  beginShape(); //First Rectangle    
+  vertex(0, 430, -200);
+  vertex(0, 430, 200);
+  vertex(130, 430, 200);
+  vertex(130, 430, -200);
+  endShape(CLOSE);
+
+  beginShape(); //Second Rectangle
+  vertex(-30, 300, -200);
+  vertex(-30, 300, 200);
+  vertex(0, 415, 200);
+  vertex(0, 415, -200);
+  endShape(CLOSE);
+
+  beginShape(LINES); //LEGS
+  vertex(0, 430, -200);
+  vertex(0, 500, -200);
+  vertex(0, 430, 200);
+  vertex(0, 500, 200);
+  vertex(130, 430, -200);
+  vertex(130, 500, -200);
+  vertex(130, 430, 200);
+  vertex(130, 500, 200);
+  endShape(CLOSE);
+  popMatrix();
+}
+```
