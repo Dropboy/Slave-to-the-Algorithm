@@ -5,7 +5,7 @@ class Branch {
   int count = 0;
   PVector saveDir;
   float len = 5;
-  
+
   Branch(PVector v, PVector d) {
     parent = null;
     pos = v.copy();

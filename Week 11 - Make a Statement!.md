@@ -1,8 +1,9 @@
-# Slave to the Algorithm - Week 10
+# Slave to the Algorithm - Week 11
 
 __*Make a Statement!*__
 
--Filled out Make a statement sheet
+At the start of the lesson we began by filling out our make a statement sheets.
+
 -Made some changes to code
 -Clarified what will need to be done for presentation
 -Maybe comment on what you would like to do for the presentation

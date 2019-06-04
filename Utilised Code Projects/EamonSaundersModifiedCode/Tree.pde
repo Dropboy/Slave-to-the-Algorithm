@@ -1,17 +1,15 @@
 class Tree {
   ArrayList<Branch> branches = new ArrayList<Branch>();
   ArrayList<Leaf> leaves = new ArrayList<Leaf>();
-  //float x = random(-500,500);
-  //float z = random(-500,500);
-  
+
   Tree(float x, float z) {
-    
+
     for (int i = 0; i < random(500); i++) {
       leaves.add(new Leaf());
       leaves.get(i).pos.x+=x;
       leaves.get(i).pos.z+=z;
     }    
-    Branch root = new Branch(new PVector(x,height/2,z), new PVector(0, -1));
+    Branch root = new Branch(new PVector(x, height/2, z), new PVector(0, -1));
     branches.add(root);
     Branch current = new Branch(root);
 
@@ -95,12 +93,11 @@ class Tree {
         line(b.pos.x, b.pos.y, b.pos.z, b.parent.pos.x, b.parent.pos.y, b.parent.pos.z);
       }
     }
-        stroke(255);
-        strokeWeight(3);
-        pushMatrix();
-        translate(0,height/2,z);
-        rotateX(PI/2.0);
-        //ellipse(x,0,200,200);
-        popMatrix();
+    stroke(255);
+    strokeWeight(3);
+    pushMatrix();
+    translate(0, height/2, z);
+    rotateX(PI/2.0);
+    popMatrix();
   }
 }
