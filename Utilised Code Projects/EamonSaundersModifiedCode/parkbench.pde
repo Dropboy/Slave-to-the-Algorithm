@@ -1,8 +1,8 @@
 class Parkbench {
   float gutter = random(-1700, -1000);
-  
+  float r = random(0.6,3);
   Parkbench() {
-  print(gutter);
+  //print(gutter);
   }
 
   void display(float x, float z) {
@@ -42,9 +42,14 @@ class Parkbench {
     }
     
     void displayP() {
-      for ( float z = returnZ(); z < 1800; z+=1200 ) {
+      pushMatrix();
+      if (rotation != 0){
+        rotateY(rotation);
+      }
+      for ( float z = returnZ(); z < 1800; z+=1200*r) {
         display(x-300, z);
       }
+      popMatrix();
     }
     
 }

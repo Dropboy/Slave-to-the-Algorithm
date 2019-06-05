@@ -1,6 +1,5 @@
 class Platform {
-  float x = random(-2000, 1700);
-
+  float x = random(-1700, 1700);
   Platform() {
     ArrayList<Tree> Forest = new ArrayList<Tree>();
   }
@@ -13,7 +12,7 @@ class Platform {
       for ( int ix = 0; ix < (cols+1); ix++) {
         for ( int iz = 0; iz < (rows+1); iz++) {
           float p = 0.4f; // stores to memory makes sure it can't be overwritten by another data type
-          Forest.add(new Tree(x+xd*ix+random(-p, p)*xd, z+zd*iz+random(-p, p)*zd));
+          Forest.add(new Tree(x+xd*ix+random(-p, p)*xd, z+zd*iz+random(-p, p)*zd)); //<>//
         }
       }
     }
@@ -26,29 +25,42 @@ class Platform {
   float returnX() {
     return x;
   }
+  
+  void reset(){
+    Forest.clear();
+  }
 
   void show() { 
     noFill();
     stroke(255);
     strokeWeight(5);
     pushMatrix();
-    translate(0, height/2+50, 0);
-    box(4000, 100, 4000);
+    translate(0, height/2+100, 0);
+    box(4000, 200, 4000);
     popMatrix();
+
   }
 
   void pathway() {
+    
     pushMatrix();
     strokeWeight(5);
     stroke(255);
     translate(0, height/2, 0);
+    if (rotation != 0){
+      rotateY(rotation);
+    }
+    //rotateY(PI/2);  Rotate 
     rotateX(PI/2.0);
+    
     rect(x, -2000, 300, 4000);
     popMatrix();
+    
   }
   void park() {
-    creategrid(-1500, -1500, x+1000, 3000, 2, 2);
-    creategrid(x+800, -1500, 700-x, 3000, 2, 2);
+    creategrid(-1500, -1400, x+600, 2800, 2, 2);
+    creategrid(x+800, -1400, 700-x, 2800, 2, 2);
     pathway();
+    
   }
 }
