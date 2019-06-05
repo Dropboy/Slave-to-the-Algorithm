@@ -1,0 +1,1 @@
+This is the library I have used to control my camera. I did glance into creating my own camera function, however after looking at Jonathan's documentation I found that it would have been immensely quicker and better on my mental health to utilise PeasyCam.
